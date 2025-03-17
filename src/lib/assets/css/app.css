@@ -1,0 +1,36 @@
+@import url('./global.css');
+@import url('./colors.css');
+@import 'tailwindcss';
+
+@tailwind utilities;
+
+@layer utilities {
+	.h1 {
+		font-weight: 800;
+		font-size: 20px;
+	}
+	.h2 {
+		font-weight: 800;
+		font-size: 20px;
+	}
+
+	.h4 {
+		font-weight: 800;
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.h6 {
+		font-weight: 800;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.sidebar__list {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		margin-bottom: 20px;
+	}
+}
