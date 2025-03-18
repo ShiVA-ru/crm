@@ -1,6 +1,6 @@
 *,
 *::after,
-*::befor {
+*::before {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -9,7 +9,7 @@
 body {
 	min-height: 100vh;
 
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--dark);
